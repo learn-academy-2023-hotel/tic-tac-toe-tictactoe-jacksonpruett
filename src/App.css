@@ -1,5 +1,19 @@
+h1 {
+  text-align: center;
+}
+
 .square {
   border: 2px solid black;
   height: 100px;
   width: 100px;
+  font-size: 5rem;
+  text-align: center;
+}
+
+.board {
+  display: flex;
+  flex-wrap: wrap;
+  width: 320px;
+  /* zero margin top/bottom and auto left/right */
+  margin: 0 auto;
 }
